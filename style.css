@@ -29,14 +29,14 @@ body {
 }
 
 .hero {
-  background: url('assets/hero.jpg') no-repeat center center/cover;
+  background: #88b388;
   padding: 5rem 2rem;
   color: white;
   text-align: center;
 }
 
 .btn {
-  background-color: #88b388;
+  background-color: #6c9a8b;
   color: white;
   padding: 0.75rem 1.25rem;
   text-decoration: none;
