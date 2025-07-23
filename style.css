@@ -1,132 +1,79 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #fdf9f3;
+  color: #333;
 }
 
-header {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+.navbar {
+  background-color: #f2e8dc;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+.nav-links {
+  list-style: none;
 }
 
-nav h1 {
-    color: white;
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.nav-links li {
+  display: inline-block;
+  margin-left: 1rem;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-}
-
-nav a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
-}
-
-main {
-    margin-top: 100px;
-    padding: 2rem;
-}
-
-section {
-    max-width: 1200px;
-    margin: 0 auto 4rem auto;
-    padding: 3rem;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .hero {
-    text-align: center;
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+  background: url('assets/hero.jpg') no-repeat center center/cover;
+  padding: 5rem 2rem;
+  color: white;
+  text-align: center;
 }
 
-.hero h2 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    color: #333;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+.btn {
+  background-color: #88b388;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
-.hero p {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-    color: #666;
+.section {
+  padding: 3rem 2rem;
+  text-align: center;
 }
 
-button {
-    background: linear-gradient(45deg, #667eea, #764ba2);
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
+.product-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 10px;
 }
 
-.project-card {
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    padding: 2.5rem;
-    border-radius: 15px;
-    transition: all 0.3s ease;
+.product-card img {
+  max-width: 100%;
+  border-radius: 6px;
 }
 
 footer {
-    text-align: center;
-    padding: 3rem 2rem;
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    margin-top: 2rem;
+  background-color: #f2e8dc;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
