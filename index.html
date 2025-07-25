@@ -1,17 +1,9 @@
- // Typography - Your Brand Fonts
-            fonts: {
-                headline: "'Playfair Display', serif",        // elegant & powerful
-                headlineAlt: "'Marcellus', serif",            // alternative headline
-                body: "'Lora', serif",                        // clean & warm
-                bodyAlt: "'DM Sans', sans-serif",             // alternative body
-                accent: "'Sacramento', cursive",              // soft script
-                accentAlt: "'Montserrat Alternates', sans-serif" // accent alternative
-            },<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Business Name</title>
+    <title>Shronda Jeanine and Company - Healing, Inspiration & Beauty</title>
     
     <!-- Google Fonts - Your Brand Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -322,26 +314,38 @@
         <!-- Logo/Brand Section -->
         <div class="logo-section">
             <div class="logo" id="logo">
-                <!-- Replace with your logo image or keep initials -->
-                YB
+                SJ&Co
             </div>
-            <h1 class="business-name" id="businessName">Your Business Name</h1>
-            <p class="tagline" id="tagline">Your inspiring tagline or mission statement goes here</p>
+            <h1 class="business-name" id="businessName">Shronda Jeanine and Company</h1>
+            <p class="tagline" id="tagline">Healing, Inspiration & Beauty Through Every Offering</p>
         </div>
 
         <!-- Services Section -->
         <div class="services-section">
             <h2 class="services-title">Our Services</h2>
             <div class="services-grid" id="servicesGrid">
-                <!-- Service cards will be populated by JavaScript -->
+                <div class="service-card">
+                    <div class="service-icon">🌱</div>
+                    <h3 class="service-name">Grief Support</h3>
+                    <p class="service-description">Compassionate guidance through life's most challenging transitions with healing and understanding.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-name">Purpose Coaching</h3>
+                    <p class="service-description">Discover your authentic path and unlock your potential with personalized coaching sessions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-name">Creative Startup Sessions</h3>
+                    <p class="service-description">Transform your creative vision into reality with strategic planning and inspirational guidance.</p>
+                </div>
             </div>
         </div>
 
         <!-- About Section -->
         <div class="about-section">
             <div class="about-text" id="aboutText">
-                Tell your story here. Share what makes your business special, your background, 
-                and how you help your clients achieve their goals.
+                I'm Shronda—an advocate, healer, and creative helping others heal, grow, and bloom. Through my work, I provide a safe space for transformation, offering support during life's most challenging moments while helping you discover your purpose and creative potential.
             </div>
         </div>
 
@@ -349,146 +353,280 @@
         <div class="contact-section">
             <h2 class="contact-title">Get In Touch</h2>
             <div class="contact-info" id="contactInfo">
-                <!-- Contact items will be populated by JavaScript -->
+                <div class="contact-item">
+                    <span>📧</span>
+                    <a href="mailto:shrjeacompany@gmail.com">shrjeacompany@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span>💳</span>
+                    <a href="https://cash.app/$yesitisshronda">$yesitisshronda</a>
+                </div>
+                <div class="contact-item">
+                    <span>🌐</span>
+                    <a href="#">Connect Online</a>
+                </div>
             </div>
         </div>
 
         <!-- Footer -->
         <div class="footer">
-            <p>&copy; 2025 <span id="footerBusinessName">Your Business Name</span>. All rights reserved.</p>
+            <p>&copy; 2025 <span id="footerBusinessName">Shronda Jeanine and Company</span>. All rights reserved.</p>
         </div>
     </div>
 
     <script>
-        // Easy customization object - Change these values to customize your site
-        const businessConfig = {
-            businessName: "Your Business Name",
-            tagline: "Your inspiring tagline or mission statement goes here",
-            logoText: "YB", // Initials or short text for logo
+        // Interactive functionality for Shronda Jeanine and Company
+        function showMessage() {
+            const messages = [
+                "Welcome to Shronda Jeanine and Company! 🌱",
+                "Healing, inspiration & beauty through every offering ✨",
+                "Ready to transform your journey? Let's connect! 💫",
+                "Your path to healing and purpose starts here 🌸",
+                "Embrace your authentic self and bloom! 🌺"
+            ];
             
-            // Brand Colors - Your Beautiful Palette
-            colors: {
-                celestialTeal: "#3C6E71",    // balance & calm
-                radiantGold: "#D4AF37",      // abundance & worth  
-                clayRose: "#C08473",         // grounded femininity
-                midnightIndigo: "#2C2A4A",   // depth & spirit
-                dustySage: "#A8B2A1",        // nature & wisdom
-                creamQuartz: "#F5F0E1",      // softness & clarity
-                burntSienna: "#B65C3A"       // bold truth & warmth
-            },
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
             
-            // Services/Products
-            services: [
-                {
-                    icon: "🎯",
-                    name: "Service One",
-                    description: "Description of your first service or product offering."
-                },
-                {
-                    icon: "💡", 
-                    name: "Service Two",
-                    description: "Description of your second service or product offering."
-                },
-                {
-                    icon: "🚀",
-                    name: "Service Three", 
-                    description: "Description of your third service or product offering."
-                }
-            ],
-            
-            // About text
-            aboutText: "Tell your story here. Share what makes your business special, your background, and how you help your clients achieve their goals.",
-            
-            // Contact information
-            contact: [
-                {
-                    icon: "📧",
-                    label: "Email",
-                    value: "your@email.com",
-                    link: "mailto:your@email.com"
-                },
-                {
-                    icon: "📱",
-                    label: "Phone", 
-                    value: "(555) 123-4567",
-                    link: "tel:+15551234567"
-                },
-                {
-                    icon: "💳",
-                    label: "Payment",
-                    value: "$YourCashApp",
-                    link: "https://cash.app/$YourCashApp"
-                }
-            ]
-        };
-
-        // Function to update colors
-        function updateColors() {
-            const root = document.documentElement;
-            // Update CSS custom properties with current brand colors
-            Object.entries(businessConfig.colors).forEach(([key, value]) => {
-                const cssVarName = key.replace(/([A-Z])/g, '-$1').toLowerCase();
-                root.style.setProperty(`--${cssVarName}`, value);
-            });
+            // Create a beautiful custom modal instead of alert
+            showCustomMessage(randomMessage);
         }
 
-        // Function to populate content
-        function populateContent() {
-            // Update business name and tagline
-            document.getElementById('businessName').textContent = businessConfig.businessName;
-            document.getElementById('tagline').textContent = businessConfig.tagline;
-            document.getElementById('logo').textContent = businessConfig.logoText;
-            document.getElementById('footerBusinessName').textContent = businessConfig.businessName;
-            
-            // Update about text
-            document.getElementById('aboutText').textContent = businessConfig.aboutText;
-            
-            // Populate services
-            const servicesGrid = document.getElementById('servicesGrid');
-            servicesGrid.innerHTML = '';
-            businessConfig.services.forEach(service => {
-                const serviceCard = document.createElement('div');
-                serviceCard.className = 'service-card';
-                serviceCard.innerHTML = `
-                    <div class="service-icon">${service.icon}</div>
-                    <h3 class="service-name">${service.name}</h3>
-                    <p class="service-description">${service.description}</p>
-                `;
-                servicesGrid.appendChild(serviceCard);
+        // Custom message modal with your brand styling
+        function showCustomMessage(message) {
+            // Create modal elements
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(44, 42, 74, 0.8);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1000;
+                animation: fadeIn 0.3s ease;
+            `;
+
+            const messageBox = document.createElement('div');
+            messageBox.style.cssText = `
+                background: linear-gradient(135deg, var(--cream-quartz) 0%, #ffffff 100%);
+                padding: 2rem;
+                border-radius: 20px;
+                max-width: 400px;
+                text-align: center;
+                box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                border: 2px solid var(--radiant-gold);
+                animation: slideIn 0.3s ease;
+            `;
+
+            const messageText = document.createElement('p');
+            messageText.textContent = message;
+            messageText.style.cssText = `
+                font-family: var(--font-body);
+                font-size: 1.2rem;
+                color: var(--midnight-indigo);
+                margin-bottom: 1.5rem;
+                line-height: 1.6;
+            `;
+
+            const closeButton = document.createElement('button');
+            closeButton.textContent = 'Beautiful ✨';
+            closeButton.style.cssText = `
+                background: linear-gradient(135deg, var(--celestial-teal) 0%, var(--midnight-indigo) 100%);
+                color: white;
+                border: none;
+                padding: 0.8rem 2rem;
+                border-radius: 25px;
+                font-family: var(--font-body-alt);
+                font-weight: 600;
+                cursor: pointer;
+                transition: transform 0.2s ease;
+            `;
+
+            closeButton.addEventListener('click', () => {
+                document.body.removeChild(modal);
             });
-            
-            // Populate contact info
-            const contactInfo = document.getElementById('contactInfo');
-            contactInfo.innerHTML = '';
-            businessConfig.contact.forEach(contact => {
-                const contactItem = document.createElement('div');
-                contactItem.className = 'contact-item';
-                contactItem.innerHTML = `
-                    <span>${contact.icon}</span>
-                    <a href="${contact.link}">${contact.value}</a>
-                `;
-                contactInfo.appendChild(contactItem);
+
+            closeButton.addEventListener('mouseover', () => {
+                closeButton.style.transform = 'translateY(-2px)';
             });
+
+            closeButton.addEventListener('mouseout', () => {
+                closeButton.style.transform = 'translateY(0)';
+            });
+
+            // Click outside to close
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    document.body.removeChild(modal);
+                }
+            });
+
+            messageBox.appendChild(messageText);
+            messageBox.appendChild(closeButton);
+            modal.appendChild(messageBox);
+            document.body.appendChild(modal);
+
+            // Add CSS animations
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes fadeIn {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+                @keyframes slideIn {
+                    from { transform: translateY(-50px) scale(0.9); opacity: 0; }
+                    to { transform: translateY(0) scale(1); opacity: 1; }
+                }
+            `;
+            document.head.appendChild(style);
         }
 
-        // Initialize the page
+        // Smooth scrolling for any anchor links (if you add navigation later)
         document.addEventListener('DOMContentLoaded', function() {
-            updateColors();
-            populateContent();
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        const targetPosition = targetSection.offsetTop - 100;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
         });
 
-        // Function to easily update configuration (call this in browser console to test changes)
-        function updateBusiness(newConfig) {
-            Object.assign(businessConfig, newConfig);
-            updateColors();
-            populateContent();
+        // Add floating action button for inspiration
+        function createFloatingButton() {
+            const fab = document.createElement('button');
+            fab.innerHTML = '✨';
+            fab.title = 'Get Inspired';
+            fab.style.cssText = `
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background: linear-gradient(135deg, var(--radiant-gold) 0%, var(--burnt-sienna) 100%);
+                border: none;
+                color: white;
+                font-size: 1.5rem;
+                cursor: pointer;
+                box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+                transition: all 0.3s ease;
+                z-index: 999;
+                animation: pulse 2s infinite;
+            `;
+
+            fab.addEventListener('click', showMessage);
+            
+            fab.addEventListener('mouseover', () => {
+                fab.style.transform = 'scale(1.1)';
+                fab.style.boxShadow = '0 6px 25px rgba(212, 175, 55, 0.6)';
+            });
+
+            fab.addEventListener('mouseout', () => {
+                fab.style.transform = 'scale(1)';
+                fab.style.boxShadow = '0 4px 20px rgba(212, 175, 55, 0.4)';
+            });
+
+            document.body.appendChild(fab);
+
+            // Add pulse animation
+            const pulseStyle = document.createElement('style');
+            pulseStyle.textContent = `
+                @keyframes pulse {
+                    0% { box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4); }
+                    50% { box-shadow: 0 4px 20px rgba(212, 175, 55, 0.8); }
+                    100% { box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4); }
+                }
+            `;
+            document.head.appendChild(pulseStyle);
         }
 
-        // Example of how to update: 
-        // updateBusiness({
-        //     businessName: "My Amazing Company",
-        //     colors: { primary: "#ff6b6b", secondary: "#4ecdc4", accent: "#45b7d1" }
-        // });
+        // Enhanced scroll effects for better user experience
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            
+            // Parallax effect for background
+            document.body.style.backgroundPosition = `center ${rate}px`;
+            
+            // Fade in elements as they come into view
+            const elements = document.querySelectorAll('.service-card, .about-section, .contact-section');
+            elements.forEach(element => {
+                const elementTop = element.offsetTop;
+                const elementBottom = elementTop + element.offsetHeight;
+                const viewportTop = window.pageYOffset;
+                const viewportBottom = viewportTop + window.innerHeight;
+                
+                if (elementBottom > viewportTop && elementTop < viewportBottom) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        // Initialize interactive features when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            createFloatingButton();
+            
+            // Add hover effects to service cards
+            const serviceCards = document.querySelectorAll('.service-card');
+            serviceCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px) scale(1.02)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+
+            console.log("🌱 Shronda Jeanine and Company website loaded!");
+            console.log("✨ Ready to inspire healing and transformation!");
+        });
+
+        // Contact form functionality (if you want to add a contact form later)
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            showCustomMessage("Thank you for reaching out! I'll connect with you soon. 💫");
+        }
+
+        // Inspirational quotes feature
+        const inspirationalQuotes = [
+            "Your healing journey is unique and beautiful. 🌸",
+            "Every ending is a new beginning in disguise. 🌱",
+            "You have the power to transform your story. ✨",
+            "Creativity flows from authenticity. 🎨",
+            "Your purpose is calling - are you ready to answer? 💫",
+            "Healing happens in community and connection. 🤝",
+            "You are worthy of all the beauty life offers. 🌺"
+        ];
+
+        function getRandomQuote() {
+            return inspirationalQuotes[Math.floor(Math.random() * inspirationalQuotes.length)];
+        }
+
+        // Auto-show inspiration every 30 seconds (optional)
+        // setInterval(() => {
+        //     if (Math.random() < 0.3) { // 30% chance every 30 seconds
+        //         showCustomMessage(getRandomQuote());
+        //     }
+        // }, 30000);
+
     </script>
 </body>
 </html>
