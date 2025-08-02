@@ -45,37 +45,9 @@ Let’s grow and shift the world through healing, heritage, and intention.
 📧 Email: Yesitisshronda@gmail.com
 💸 Support/Donate: CashApp $yesitisshronda
 🌐 Website: shrondajeanineco.com
-📱 TikTok: @OnPurposeWithPurpose9
-📺 YouTube: @ShrondaJeanine
-
-Would you like a version of this turned into a professional one-page graphic, social media carousel, or downloadable flyer next?
-
-
-
-
-
-
-
-
-
-Ask ChatGPT
-You said:
-Youtube: @OnPurposeWithPurpose9 tiktok @.shronda
-
-
-ChatGPT said:
-Thanks for the update! Here’s the corrected contact info section with YouTube and TikTok handles fixed:
-
-💌 Connect & Grow With Us
-Let’s grow and shift the world through healing, heritage, and intention.
-
-📧 Email: Yesitisshronda@gmail.com
-💸 Support/Donate: CashApp $yesitisshronda
-🌐 Website: shrondajeanineco.com
 📱 TikTok: @.shronda
 📺 YouTube: @OnPurposeWithPurpose9
 
-If you want, I can integrate this into the full About text again or prep it for a specific use!
 
 
 
