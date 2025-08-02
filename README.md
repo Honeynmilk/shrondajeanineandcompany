@@ -1,1 +1,87 @@
-🌿 Shronda Jeanine and CompanyRooted in Healing. Designed for Purpose. Created with Soul.<p align="center"><!-- Consider adding a logo or banner image here! --><img src="https://placehold.co/600x300/F3EADB/4A4A4A?text=Shronda+Jeanine+%26+Co." alt="Shronda Jeanine and Company Banner"></p>💫 About Our MovementShronda Jeanine and Company is more than a business — it’s a movement. Born from lived experiences, ancestral wisdom, and a deep love for people and community, this brand stands at the intersection of healing, creativity, advocacy, and soulful entrepreneurship.Founded by Shronda Garner, a passionate advocate and visionary creator, the company exists to support those navigating grief, reclaiming their power, and reimagining their lives with purpose. With a foundation rooted in unity, nonviolence, self-expression, and empowerment, every offering is crafted with intention. From supporting families through loss to inspiring daily growth and transformation, this is a space where authenticity meets artistry.🛍️ What We OfferShronda Jeanine and Company is home to a powerful collection of purpose-driven offerings:🌱 Grief Support & Spiritual Guidance"You Are Still Loved" – A gentle workbook for children dealing with loss.Grief Support Kits – Including eBooks, guided sessions, and comfort tools.Custom ceremonies, healing resources, and spiritual reflections.🌸 Creative Products & Repurposed Goods (Her It Is Collection)Cultural home décor.Upcycled fashion and accessories.Handmade and repurposed household items.🌿 Plants & Nature-Based Healing (Abundant Harvest Collection)Beautiful, thriving indoor plants: pothos, monstera, elephant ear, snake plant.Community garden and event support.Herbal inspiration and plant education.🦋 Books & JournalsThirty Seeds of Light – A 30-day inspirational guide.Wild & Free: A Ritual of Reimagining – A 365-day creative healing journey.She Spoke, and the World Shifted – A book of powerful reflections and healing truth.🎙️ Media & Youth Empowerment (With Purpose On Purpose)Inspirational videos, reels, and workshops.Mentorship and storytelling for young people.Tools to build confidence, vision, and voice.💌 Connect & Grow With UsLet's grow together and shift the world through healing and purpose.Email: Yesitisshronda@gmail.comSupport or Donate: CashApp: $yesitisshrondaWebsite (In Progress): shrondajeanineandcompany.comInstagram: @yesitisshrondaTikTok: @yesitisshrondaYouTube: With Purpose On Purpose (Coming Soon)
+💫 About Our Movement
+Shronda Jeanine and Company is more than a business — it’s a movement rooted in healing, creativity, and purpose. Founded by Shronda Garner, a passionate advocate and visionary, the brand helps people navigate grief, reclaim their power, and reimagine their lives with intention.
+
+Born from lived experience, ancestral wisdom, and deep community love, every offering is crafted to inspire transformation where authenticity meets artistry.
+
+🛍️ What We Offer
+🌱 Grief Support & Spiritual Guidance
+You Are Still Loved – Gentle grief workbook for children
+
+Grief Support Kits – eBooks, guided sessions, and comfort tools
+
+Custom healing ceremonies and spiritual reflections
+
+🌸 Heriteez: Repurposed Goods & Cultural Expression
+Upcycled fashion and handmade accessories
+
+Cultural home décor rooted in heritage
+
+Repurposed household items with meaning
+
+🌿 Abundant Harvest: Cottage Food Program (Arizona)
+Homemade meals under Arizona’s cottage food law
+
+Community meal support for events and outreach
+
+Seasonal offerings made with care and cultural flavor
+
+📚 Books & Journals
+Thirty Seeds of Light – 30-day inspirational journey
+
+Wild & Free: A Ritual of Reimagining – 365-day creative healing series
+
+She Spoke, and the World Shifted – Powerful reflections and healing truths
+
+🎙️ With Purpose On Purpose: Youth & Media Empowerment
+Inspiring reels, videos, and live workshops
+
+Mentorship and storytelling for youth
+
+Tools for building confidence, creativity, and voice
+
+💌 Connect & Grow With Us
+Let’s grow and shift the world through healing, heritage, and intention.
+
+📧 Email: Yesitisshronda@gmail.com
+💸 Support/Donate: CashApp $yesitisshronda
+🌐 Website: shrondajeanineco.com
+📱 TikTok: @OnPurposeWithPurpose9
+📺 YouTube: @ShrondaJeanine
+
+Would you like a version of this turned into a professional one-page graphic, social media carousel, or downloadable flyer next?
+
+
+
+
+
+
+
+
+
+Ask ChatGPT
+You said:
+Youtube: @OnPurposeWithPurpose9 tiktok @.shronda
+
+
+ChatGPT said:
+Thanks for the update! Here’s the corrected contact info section with YouTube and TikTok handles fixed:
+
+💌 Connect & Grow With Us
+Let’s grow and shift the world through healing, heritage, and intention.
+
+📧 Email: Yesitisshronda@gmail.com
+💸 Support/Donate: CashApp $yesitisshronda
+🌐 Website: shrondajeanineco.com
+📱 TikTok: @.shronda
+📺 YouTube: @OnPurposeWithPurpose9
+
+If you want, I can integrate this into the full About text again or prep it for a specific use!
+
+
+
+
+
+
+
+
+
